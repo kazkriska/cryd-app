@@ -1,3 +1,4 @@
+import { router } from "expo-router";
 import { Text, View } from "react-native";
 import { Button } from "tamagui";
 
@@ -10,7 +11,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Button>Edit app/index.tsx to edit this screen.</Button>
+      <Button onPress={() => router.navigate('/get-started')}>Edit app/index.tsx to edit this screen.</Button>
     </View>
   );
 }
