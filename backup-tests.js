@@ -1,6 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react-native';
 import '@testing-library/react-native/extend-expect';
-import GetStarted from '../app/(userflow1)/get-started';
+import GetStarted from './app/(userflow1)/index';
 import { router } from 'expo-router';
 
 describe('User Flow (1)', () => {
