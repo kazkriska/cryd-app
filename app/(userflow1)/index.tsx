@@ -1,12 +1,13 @@
 import React from 'react';
-import { Text, View } from 'react-native';
-import UnstyledDemo from '../../components/UnstyledDemo';
+import { Text, View, Button } from 'react-native';
+import { router } from 'expo-router';
 
 const GetStarted = () => {
   return (
     <View>
-      <Text>Get Started</Text>
-      <UnstyledDemo />
+      <Button title="Scan Qr" onPress={() => router.navigate('/qr-scanner')} />
+      <Button title="Enter manually" />
+      <Button title="Sign in" onPress={() => alert('Button Clicked')} />
     </View>
   );
 };

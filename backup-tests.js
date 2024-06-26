@@ -34,6 +34,7 @@ describe('User Flow (1)', () => {
       //. on seeing a valid qr code, but expired, navigate to /voucher-expired
     });
   });
+  
   describe('page/voucher-auth', () => {
     it('should render a page with prefilled data from QR scan and input fields', () => {
       // render a prefilled, editable(false) inputArea = Voucher Serial Number
