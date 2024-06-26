@@ -4,7 +4,7 @@ import React from 'react'
 const QR_Scanner = () => {
   return (
     <View>
-      <Text>QR_Scanner</Text>
+      <Text>QR Scanner</Text>
     </View>
   )
 }

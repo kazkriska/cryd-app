@@ -4,7 +4,7 @@ import React from 'react'
 const VoucherAuthentication = () => {
   return (
     <View>
-      <Text>VoucherAuthentication</Text>
+      <Text>Voucher Authentication</Text>
     </View>
   )
 }

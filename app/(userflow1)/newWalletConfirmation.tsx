@@ -4,7 +4,7 @@ import React from 'react'
 const newWalletConfirmation = () => {
   return (
     <View>
-      <Text>newWalletConfirmation</Text>
+      <Text>new Wallet Confirmation</Text>
     </View>
   )
 }
